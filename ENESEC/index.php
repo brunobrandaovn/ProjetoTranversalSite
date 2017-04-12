@@ -8,9 +8,8 @@
     <body>
         <?php include "includes/topo.php" ?>
         <div id="interface">
-        <?php include "includes/header.php" ?>
-        <?php include "includes/menu.php" ?>
-            
+            <?php include "includes/header.php" ?>
+            <?php include "includes/menu.php" ?>
             <section>
                 <div class="error"> ERRO!</div>
                 <div class="success"> SUCESSO!</div>
