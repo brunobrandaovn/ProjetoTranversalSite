@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+}
+.new{
+    color: #00427e;
+    text-align: center;
+}
+.caixaLogin{
+    width: 200px;
+    margin: 0 auto;
+    background-color: #EEE;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+input[type="submit"]{
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #067b39;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover{
+    background-color: #00427e;
+}
+
+input[type="text"], input[type="password"]{
+    padding: 8px;
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
